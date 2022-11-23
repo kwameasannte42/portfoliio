@@ -1,12 +1,7 @@
+let submit = document.querySelector('#submit');
+submit.addEventListener('click', function(event));
+alert('thanks for submiting')
 
 
-let greeting = 'hello world 123';
-alert(greeting)
+let message = document.querySelector('#message');
 
-let webDevelopment = 'gideon';
-
-let age = 2;
-let pi = 5;
-let alphabet = 'a,b,c';
-
-alert(age + pi);
